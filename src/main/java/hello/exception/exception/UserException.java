@@ -14,8 +14,8 @@ public class UserException extends RuntimeException{
     public UserException(Throwable cause) {
         super(cause);
     }
-    protected UserException(String message, Throwable cause, boolean
-            enableSuppression, boolean writableStackTrace) {
+    protected UserException(String message, Throwable cause,
+                            boolean enableSuppression, boolean writableStackTrace) {
         super(message, cause, enableSuppression, writableStackTrace);
     }
 }
